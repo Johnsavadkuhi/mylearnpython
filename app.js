@@ -1,26 +1,8 @@
 
-const car = {
-    name : 'car' , 
-    start :function(){
-        console.log('Start the ' + this.name);
-    }, 
-    speedup : function(){
-        console.log('Speed up the ' + this.name);
-    },
-    stop :function(){
-        console.log('Stop the ' + this.name);
-    }
-
-}
-
-const aircraft = {
-    name : 'aircraft', 
-    fly: function(){
-        console.log('Fly');
-    }
-}
+let i ; 
 
 
-//car.start.call(aircraft) 
+for (i = 0 ; i < 10 ;i++ ){
+    console.log("Hello")
 
-car.start()
+}  
